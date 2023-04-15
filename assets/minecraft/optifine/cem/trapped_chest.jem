@@ -1,0 +1,35 @@
+{
+	"texture": "trapped_chest.png",
+	"textureSize": [16, 16],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-16, -16, 0, 16, 16, 16],
+					"uvNorth": [12, 8, 8, 4],
+					"uvEast": [12, 8, 8, 4],
+					"uvSouth": [16, 8, 12, 4],
+					"uvWest": [12, 8, 8, 4],
+					"uvUp": [16, 4, 12, 0],
+					"uvDown": [16, 4, 12, 0]
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

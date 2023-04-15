@@ -1,0 +1,34 @@
+{
+    "parent": "nrc:states/normal",
+    "overrides": 
+    [
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6660
+            },
+            "model": "nrc:states/block/normal"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6661
+            },
+            "model": "nrc:states/block/active"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6662
+            },
+            "model": "nrc:states/block/inactive"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6663
+            },
+            "model": "nrc:invisible"
+        }
+    ]
+}

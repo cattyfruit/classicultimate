@@ -1,0 +1,51 @@
+{
+	"texture": "zombie_pigman",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [-12, -13, 3, 8, 8, 8],
+			"uvNorth": [8, 8, 16, 16],
+			"uvEast": [0, 8, 8, 16],
+			"uvSouth": [24, 8, 32, 16],
+			"uvWest": [16, 8, 24, 16],
+			"uvUp": [8, 0, 16, 8],
+			"uvDown": [16, 0, 24, 8]
+		},
+		{
+			"coordinates": [-12.25, -13.275, 2.725, 8.525, 8.525, 8.525],
+			"uvNorth": [40, 8, 48, 16],
+			"uvEast": [32, 8, 40, 16],
+			"uvSouth": [56, 8, 64, 16],
+			"uvWest": [48, 8, 56, 16],
+			"uvUp": [40, 0, 48, 8],
+			"uvDown": [48, 0, 56, 8]
+		},
+		{
+			"coordinates": [-10, -9, 2, 4, 3, 1],
+			"uvNorth": [10, 12, 14, 15],
+			"uvEast": [11, 12, 12, 15],
+			"uvSouth": [10, 12, 14, 15],
+			"uvWest": [12, 12, 13, 15],
+			"uvUp": [10, 12, 14, 13],
+			"uvDown": [10, 9, 14, 10]
+		}
+	],
+	"submodels": [
+		{
+			"id": "left Ear",
+			"rotate": [0, 0, 60],
+			"boxes": [
+				{
+					"coordinates": [-6.8923, -2.8, 5, -5, 1, 4],
+					"uvNorth": [59, 8, 59, 9],
+					"uvEast": [59, 8, 63, 9],
+					"uvSouth": [59, 8, 59, 9],
+					"uvWest": [59, 8, 63, 9],
+					"uvUp": [59, 8, 59, 12],
+					"uvDown": [59, 8, 59, 12]
+				}
+			]
+		}
+	]
+}

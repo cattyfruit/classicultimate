@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/stonecutter_side1",
+    "north": "minecraft:block/stonecutter_side2",
+    "south": "minecraft:block/stonecutter_side2",
+    "east": "minecraft:block/stonecutter_side1",
+    "west": "minecraft:block/stonecutter_side1",
+    "up": "minecraft:block/stonecutter_top",
+    "down": "minecraft:block/stonecutter_bottom"
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/item_frame"
+    },
+    "overrides": 
+    [
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6660
+            },
+            "model": "nrc:states/item/normal"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6661
+            },
+            "model": "nrc:states/item/active"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6662
+            },
+            "model": "nrc:states/item/inactive"
+        },
+        {
+            "predicate": 
+            {
+                "custom_model_data": 6663
+            },
+            "model": "nrc:invisible"
+        }
+    ]
+}
