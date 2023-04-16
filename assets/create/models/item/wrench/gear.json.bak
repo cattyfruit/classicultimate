@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "create:item/mechanical_mixer"
+    "layer0": "minecraft:item/leather_boots_overlay"
   }
 }

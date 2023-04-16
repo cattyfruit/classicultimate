@@ -1,3 +1,6 @@
 {
-  "parent": "create:item/wrench/item"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "create:item/wrench"
+  }
 }
