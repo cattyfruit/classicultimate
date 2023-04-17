@@ -1,6 +1,66 @@
 {
-  "parent": "minecraft:block/template_anvil",
-  "textures": {
-    "top": "minecraft:block/damaged_anvil_top"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "block/damaged_anvil",
+		"particle": "block/damaged_anvil"
+	},
+	"elements": [
+		{
+			"name": "Anvil base",
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [3, 8.5, 6, 9.5], "texture": "#1"},
+				"east": {"uv": [0, 8.5, 3, 9.5], "texture": "#1"},
+				"south": {"uv": [9, 8.5, 12, 9.5], "texture": "#1"},
+				"west": {"uv": [6, 8.5, 9, 9.5], "texture": "#1"},
+				"up": {"uv": [6, 8.5, 3, 5.5], "texture": "#1"},
+				"down": {"uv": [9, 5.5, 6, 8.5], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Lower narrow portion",
+			"from": [4, 4, 3],
+			"to": [12, 5, 13],
+			"faces": {
+				"north": {"uv": [8.5, 12, 10.5, 12.25], "texture": "#1"},
+				"east": {"uv": [6, 12, 8.5, 12.25], "texture": "#1"},
+				"south": {"uv": [13, 12, 15, 12.25], "texture": "#1"},
+				"west": {"uv": [10.5, 12, 13, 12.25], "texture": "#1"},
+				"up": {"uv": [10.5, 12, 8.5, 9.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [6, 5, 4],
+			"to": [10, 10, 12],
+			"faces": {
+				"north": {"uv": [2, 11.5, 3, 12.75], "texture": "#1"},
+				"east": {"uv": [0, 11.5, 2, 12.75], "texture": "#1"},
+				"south": {"uv": [5, 11.5, 6, 12.75], "texture": "#1"},
+				"west": {"uv": [3, 11.5, 5, 12.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Anvil top",
+			"from": [3, 10, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 6.5, 5.5], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 5.5], "texture": "#1"},
+				"south": {"uv": [10.5, 4, 13, 5.5], "texture": "#1"},
+				"west": {"uv": [6.5, 4, 10.5, 5.5], "texture": "#1"},
+				"up": {"uv": [6.5, 4, 4, 0], "texture": "#1"},
+				"down": {"uv": [9, 0, 6.5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }
